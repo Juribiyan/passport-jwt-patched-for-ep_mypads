@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "passport-jwt@~1.1.0",
+        "scope": null,
+        "escapedName": "passport-jwt",
+        "name": "passport-jwt",
+        "rawSpec": "~1.1.0",
+        "spec": ">=1.1.0 <1.2.0",
+        "type": "range"
+      },
+      "E:\\Etherpad\\node_modules\\ep_mypads"
+    ]
+  ],
+  "_from": "passport-jwt@>=1.1.0 <1.2.0",
+  "_id": "passport-jwt@1.1.1",
+  "_inCache": true,
+  "_location": "/ep_mypads/passport-jwt",
+  "_nodeVersion": "0.12.2",
+  "_npmUser": {
+    "name": "themikenicholson",
+    "email": "themikenicholson@gmail.com"
+  },
+  "_npmVersion": "2.7.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "passport-jwt@~1.1.0",
+    "scope": null,
+    "escapedName": "passport-jwt",
+    "name": "passport-jwt",
+    "rawSpec": "~1.1.0",
+    "spec": ">=1.1.0 <1.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/ep_mypads"
+  ],
+  "_resolved": "https://registry.npmjs.org/passport-jwt/-/passport-jwt-1.1.1.tgz",
+  "_shasum": "d511780333803e4d881b4e42e01fd8387f48f573",
+  "_shrinkwrap": null,
+  "_spec": "passport-jwt@~1.1.0",
+  "_where": "E:\\Etherpad\\node_modules\\ep_mypads",
+  "author": {
+    "name": "Mike Nicholson"
+  },
+  "bugs": {
+    "url": "https://github.com/themikenicholson/passport-jwt/issues"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^5.0.0",
+    "passport-strategy": "^1.0.0"
+  },
+  "description": "Passport authentication strategy using JSON Web Tokens",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "chai-passport-strategy": "^0.2.0",
+    "mocha": "^2.0.1",
+    "sinon": "^1.11.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "d511780333803e4d881b4e42e01fd8387f48f573",
+    "tarball": "https://registry.npmjs.org/passport-jwt/-/passport-jwt-1.1.1.tgz"
+  },
+  "gitHead": "0f4ffa460a38c4dbc0fc513e44275692e12c9b8f",
+  "homepage": "https://github.com/themikenicholson/passport-jwt",
+  "keywords": [
+    "Passport",
+    "Strategy",
+    "JSON",
+    "Web",
+    "Token",
+    "JWT"
+  ],
+  "license": "MIT",
+  "main": "./lib",
+  "maintainers": [
+    {
+      "name": "themikenicholson",
+      "email": "themikenicholson@gmail.com"
+    }
+  ],
+  "name": "passport-jwt",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themikenicholson/passport-jwt.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap test/*test.js"
+  },
+  "version": "1.1.1"
+}
